@@ -113,7 +113,7 @@ python taketv.py --ip 192.168.1.130 --unmute
 ```
  Sonido nivel 5
 ```sh
-python taketv.py --ip 192.168.1.130 ----volume 5
+python taketv.py --ip 192.168.1.130 --volume 5
 ```
 
 # Uso asistente
