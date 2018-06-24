@@ -16,7 +16,7 @@ sudo apt-get install youtube-dl
 [-] Smart TV Recco
 [-] Smart TV Samsung
 [-] Smart TV LG
-[-] Android TV 
+[-] Android TV
 [-] ?
 ```
 
@@ -47,8 +47,8 @@ python taketv.py -h
     
 taketv.py [--ip <dispositivo>] [--all] [-t[imeout] <segundos>] [--play <url>] [--pause] [--stop]
  --ip <dispositivo> - ip de la TV
- --all - descubrimiento de equipos por upnp 
- --play <url> - url de el la imagen,musica o video. en caso de estar vacia reproduce el recurso anterior.
+ --all - descubrimiento de equipos por upnp
+ --play <url> - url de el la imagen, musica o video. En caso de estar vacia reproduce el recurso anterior.
  --pause - pausar el recurso
  --stop - parar el recurso
  --mute - mute playback
@@ -75,7 +75,7 @@ python taketv.py --all --timeout 7
 
 
                                                            
-    Developer :@svelizdonoso                                                      
+    Developer: @svelizdonoso                                                      
     GitHub: https://github.com/SVelizDonoso
 
     
@@ -139,7 +139,7 @@ python assistent.py -h
 	
 
 
-usage: Uso:python assistent.py --httpserver --port 8000  [-h] [--url URL]
+usage: Uso: python assistent.py --httpserver --port 8000 [-h] [--url URL]
                                                          [--port PORT]
                                                          [--httpserver]
                                                          [--listserver]
@@ -169,7 +169,7 @@ python assistent.py --url https://www.youtube.com/watch?v=kUHgqiqQb6M --dyoutube
 
 Descargar mp3 de youtube a servidor local
 ```sh
-python assistent.py --url https://www.youtube.com/watch?v=kUHgqiqQb6M --dyoutubemp4
+python assistent.py --url https://www.youtube.com/watch?v=kUHgqiqQb6M --dyoutubemp3
 ```
 
 Descargar mp3 y mp4 de youtube a servidor local

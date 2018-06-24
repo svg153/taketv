@@ -411,7 +411,7 @@ def banner():
 
 
                                                            
-    Developer :@svelizdonoso                                                      
+    Developer: @svelizdonoso                                                      
     GitHub: https://github.com/SVelizDonoso
 
     """
@@ -429,8 +429,8 @@ if __name__ == '__main__':
       
       print('{} [--ip <dispositivo>] [--all] [-t[imeout] <segundos>] [--play <url>] [--pause] [--stop]'.format(__file__))
       print(' --ip <dispositivo> - ip de la TV')
-      print(' --all - descubrimiento de equipos por upnp ')
-      print(' --play <url> - url de el la imagen,musica o video. en caso de estar vacia reproduce el recurso anterior.')
+      print(' --all - descubrimiento de equipos por upnp')
+      print(' --play <url> - url de el la imagen, musica o video. En caso de estar vacia reproduce el recurso anterior.')
       print(' --pause - pausar el recurso')
       print(' --stop - parar el recurso')
       print(' --mute - mute playback')
